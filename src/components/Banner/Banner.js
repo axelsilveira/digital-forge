@@ -24,7 +24,7 @@ const Banner = (props) => {
   return (
     <div className={styles.root} style={customStyling}>
       <div className={styles.content} style={{ maxWidth: maxWidth }}>
-        <h2>{name}</h2>
+        <h6>{name}</h6>
         {subtitle && (
           <span
             className={`${styles.subtitle} ${
